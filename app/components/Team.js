@@ -5,20 +5,25 @@ import Image from 'next/image'
 export default function Team() {
   const teamMembers = [
     {
-      name: "OLUWASEUN AYOBAMI AYEJOTO ALABI",
+      name: "JANET ABIMBOLA ALABI",
       role: "CEO/MD",
-      description: "Blockchain Architect & Strategist",
-      image: "/assets/team/oluwaseun.svg"
+      image: "/assets/team/janet.jpeg"
     },
     {
-      name: "JANET ABIMBOLA ALABI",
+      name: "OLUWASEUN AYOBAMI AYEJOTO ALABI",
       role: "CHIEF FINANCIAL OFFICER",
-      image: "/assets/team/janet.svg"
+      description: "Blockchain Architect & Strategist",
+      image: "/assets/team/oluwaseun.jpeg"
     },
     {
       name: "OGU DANIEL AROME",
       role: "COO",
       image: "/assets/team/daniel.svg"
+    },
+    {
+      name: "OLAIDE OMOBOLAJI OLUMADE",
+      role: "CHIEF TECHNICAL OFFICER",
+      image: "assets/team/olaide.jgep"
     }
   ]
 
