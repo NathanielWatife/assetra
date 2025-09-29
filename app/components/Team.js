@@ -18,12 +18,12 @@ export default function Team() {
     {
       name: "OGU DANIEL AROME",
       role: "COO",
-      image: "/assets/team/daniel.svg"
+      image: "/assets/team/daniel.jpeg"
     },
     {
       name: "OLAIDE OMOBOLAJI OLUMADE",
       role: "CHIEF TECHNICAL OFFICER",
-      image: "assets/team/olaide.jgep"
+      image: "/assets/team/olaide.jpeg"
     }
   ]
 
@@ -65,8 +65,8 @@ export default function Team() {
         }
         
         .team-image-container {
-          width: 150px;
-          height: 150px;
+          width: 200px;
+          height: 200px;
           margin: 0 auto 1.5rem;
           border-radius: 50%;
           overflow: hidden;
